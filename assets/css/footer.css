@@ -1,0 +1,32 @@
+.container-footer{
+    width: 100%;
+    background-color: #171c24;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-footer footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 10px 40px 10px;
+}
+
+.container-footer footer img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.container-footer footer h2{
+    color: rgb(233, 124, 41);
+}
+
+.container-footer footer p a{
+    color: #fff;
+}
+
+.container-footer footer p a:hover{
+    color: rgb(223, 138, 48);
+}

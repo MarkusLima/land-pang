@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+</head>
+
+<body>
+    <div class="container-nav-menu">
+        <nav>
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content-nav-menu">
+                <div class="logo"><a href="#">LogoMarca</a></div>
+                <ul class="links-nav-menu">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Imóveis</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <section class="container_banner" onmouseout="mouseOut();" onmouseover="mouseIn();">
+        <ul></ul>
+    </section>
+
+    <section class="container_vitrine_imoveis">
+        <h2>Vitrine</h2>
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two" checked>
+        <div class="main-card">
+            <div class="cards" id="card_one"></div>
+            <div class="cards" id="card_two"></div>
+        </div>
+    </section>
+
+    <section class="container_action_call">
+        <div class="button">
+            <button class="button-os"><a href="#">Call to Action</a></button>
+        </div>
+        <div class="text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+        </div>
+    </section>
+
+    <section class="container_ultimas_news">
+        <h2>Ultimas noticias</h2>
+        <ul></ul>
+    </section>
+
+    <section class="container_mais_acessados">
+        <h2>Mais acessados</h2>
+        <div></div>
+    </section>
+
+    <section class="container_google_maps">
+        <h2>Localizacao</h2>
+        <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-43.18099,-22.932226,-43.1779,-22.929178&layer=mapnik&marker=-22.93064,-43.17949"
+            width="97%" height="320px" scrolling="yes" frameborder="0"></iframe>
+    </section>
+
+    <div class="container-footer">
+        <footer>
+            <div><img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel1.jpg" alt="img footer"></div>
+            <div>
+                <h2>Footer menu</h2>
+                <p><a href="">Item 1</a></p>
+                <p><a href="">Item 2</a></p>
+                <p><a href="">Item 3</a></p>
+            </div>
+            <div>
+                <h2>Footer menu</h2>
+                <p><a href="">Item 1</a></p>
+                <p><a href="">Item 2</a></p>
+                <p><a href="">Item 3</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/carrossel.js"></script>
+</body>
+
+</html>
